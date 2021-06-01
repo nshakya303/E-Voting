@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:background="#FFFFFF"
+     android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                    android:id="@+id/collapsing_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="true"
+                    app:contentScrim="#fff"
+                    app:expandedTitleTextAppearance="@android:color/transparent"
+                    app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                    <LinearLayout
+                            android:id="@+id/backbt"
+                            android:layout_width="56dp"
+                            android:layout_height="56dp"
+                            android:background="#fff"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center">
+
+                        <ImageView
+                                android:layout_width="27dp"
+                                android:layout_height="40dp"
+                                android:background="@null"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/backb" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:clipToPadding="false"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:orientation="horizontal">
+
+                            <ImageView
+                                    android:layout_height="80dp"
+                                    android:layout_width="80dp"
+                                    android:src="@drawable/pic1"
+                                    android:scaleType="centerCrop"/>
+
+                            <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="10dp"
+                                    android:orientation="vertical">
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textStyle="bold"
+                                        android:textSize="15dp"
+                                        android:maxLines="1"
+                                        android:textColor="#000"
+                                        android:text="Narendra Modi"
+                                        android:layout_height="wrap_content"/>
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textSize="14dp"
+                                        android:textColor="#757575"
+                                        android:maxLines="2"
+                                        android:text="Current Prime Minister of India"
+                                        android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/bjp"
+                                    android:scaleType="centerInside"/>
+
+                            <Button
+                                    android:id="@+id/vote_1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/oval_button_green"
+                                    android:text="VOTE"
+                                    android:textAllCaps="false"
+                                    android:textColor="#fff"
+                                    android:textColorLink="#FFFFFF"
+                                    />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:orientation="horizontal">
+
+                            <ImageView
+                                    android:layout_height="80dp"
+                                    android:layout_width="80dp"
+                                    android:src="@drawable/rahulgandhi"
+                                    android:scaleType="centerCrop"/>
+
+                            <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="10dp"
+                                    android:orientation="vertical">
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textStyle="bold"
+                                        android:textSize="15dp"
+                                        android:maxLines="1"
+                                        android:textColor="#000"
+                                        android:text="Rahul Gandhi"
+                                        android:layout_height="wrap_content"/>
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textSize="14dp"
+                                        android:textColor="#757575"
+                                        android:maxLines="2"
+                                        android:text="President of Indian Nation congress"
+                                        android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/inc"
+                                    android:scaleType="centerInside"/>
+
+                            <Button
+                                    android:id="@+id/vote_2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/oval_button_green"
+                                    android:text="VOTE"
+                                    android:textAllCaps="false"
+                                    android:textColor="#fff"
+                                    android:textColorLink="#FFFFFF"
+                                    />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:orientation="horizontal">
+
+                            <ImageView
+                                    android:layout_height="80dp"
+                                    android:layout_width="80dp"
+                                    android:src="@drawable/mayawati"
+                                    android:scaleType="centerCrop"/>
+
+                            <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="10dp"
+                                    android:orientation="vertical">
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textStyle="bold"
+                                        android:textSize="15dp"
+                                        android:maxLines="1"
+                                        android:textColor="#000"
+                                        android:text="Mayawati"
+                                        android:layout_height="wrap_content"/>
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textSize="14dp"
+                                        android:textColor="#757575"
+                                        android:maxLines="2"
+                                        android:text="Former Chief Minister of Uttar Pradesh"
+                                        android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/bsp"
+                                    android:scaleType="centerInside"/>
+
+                            <Button
+                                    android:id="@+id/vote_3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/oval_button_green"
+                                    android:text="VOTE"
+                                    android:textAllCaps="false"
+                                    android:textColor="#fff"
+                                    android:textColorLink="#FFFFFF"
+                                    />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:background="@drawable/customborder"
+                            android:orientation="vertical"
+                            android:layout_height="wrap_content">
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginRight="10dp"
+                                android:orientation="horizontal">
+
+                            <ImageView
+                                    android:layout_height="80dp"
+                                    android:layout_width="80dp"
+                                    android:src="@drawable/raja"
+                                    android:scaleType="centerCrop"/>
+
+                            <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="10dp"
+                                    android:orientation="vertical">
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textStyle="bold"
+                                        android:textSize="15dp"
+                                        android:maxLines="1"
+                                        android:textColor="#000"
+                                        android:text="Doraisamy Raja"
+                                        android:layout_height="wrap_content"/>
+
+                                <TextView
+                                        android:layout_width="match_parent"
+                                        android:textSize="14dp"
+                                        android:textColor="#757575"
+                                        android:maxLines="2"
+                                        android:text="General Secretary of CPI"
+                                        android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                            <ImageView
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/cpi"
+                                    android:scaleType="centerInside"/>
+
+                            <Button
+                                    android:id="@+id/vote_4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/oval_button_green"
+                                    android:text="VOTE"
+                                    android:textAllCaps="false"
+                                    android:textColor="#fff"
+                                    android:textColorLink="#FFFFFF"
+                                    />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_margin="20dp"
+                        >
+
+                    <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="30dp"
+                            app:cardBackgroundColor="#2BF2C5">
+
+                        <TextView
+                                android:id="@+id/voted"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="You have not voted"
+                                android:textColor="@android:color/holo_red_dark"
+                                android:textSize="22sp"
+                                android:textAlignment="center"
+                                android:layout_margin="30dp"
+                                android:textStyle="bold"
+                                android:fontFamily="serif"/>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

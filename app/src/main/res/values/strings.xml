@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">E-Election</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_candidates">Candidates</string>
+    <string name="title_activity_mark_your_location">Map</string>
+    <string name="title_activity_get_users_location">Map</string>
+
+    <string name="add_address_button_text"><font size="18">Next</font>\n\
+        <font size="10">MARK YOUR ADDRESS ON THE MAP</font>
+    </string>
+
+    <string name="terms">
+        <u>By continuing, I accept terms of service</u>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="narendra" tools:ignore="StringEscaping">
+
+          Narendra Damodardas Modi (Gujarati: born 17 September 1950)is an Indian politician serving as the 14th and current prime minister of India since 2014. He was the chief minister of Gujarat from 2001 to 2014 and is the member of Parliament for Varanasi. Modi is a member of the Bharatiya Janata Party (BJP) and its National Democratic Alliance (NDA). He is also a member of the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist volunteer organisation. He is the first prime minister born after Indias independence, the second non-Congress one to win two consecutive terms after Atal Bihari Vajpayee and the first from outside the Congress to win both terms with a majority in the Lok Sabha \n\n\n
+          Born and raised in Vadnagar, a small town in northeastern Gujarat, Modi completed his secondary education there, and is said to have helped his father sell tea at the local railway station. He was introduced to the RSS at age eight. Modi left home after finishing high-school in part due to child marriage to Jashodaben Chimanlal Modi, which he publicly acknowledged only many decades later. Modi travelled around India for two years and visited a number of religious centres before returning to Gujarat. In 1971 he became a full-time worker for the RSS. During the state of emergency imposed across the country in 1975, Modi was forced to go into hiding. The RSS assigned him to the BJP in 1985 and he held several positions within the party hierarchy until 2001, rising to the rank of general secretary.\n\n\n
+          Modi was appointed Chief Minister of Gujarat in 2001 due to Keshubhai Patels failing health and poor public image following the earthquake in Bhuj. Modi was elected to the legislative assembly soon after. His administration has been considered complicit in the 2002 Gujarat riots, or otherwise criticised for its handling of it. A Supreme Court-appointed Special Investigation Team found no evidence to initiate prosecution proceedings against Modi personally. His policies as chief minister, credited with encouraging economic growth, have received praise. His administration has been criticised for failing to significantly improve health, poverty and education indices in the state.\n\n\n
+          Modi led the BJP in the 2014 general election which gave the party a majority in the Indian lower house of parliament, the Lok Sabha, the first time for any single party since 1984. Modi administration has tried to raise foreign direct investment in the Indian economy and reduced spending on healthcare and social welfare programmes. Modi has attempted to improve efficiency in the bureaucracy; he has centralised power by abolishing the Planning Commission. He began a high-profile sanitation campaign, initiated a controversial demonetisation of high-denomination banknotes and weakened or abolished environmental and labour laws\n\n
+          Read more\n
+          https://en.wikipedia.org/wiki/Narendra_Modi
+          \n\n\n\n
+
+    </string>
+
+    <string name="rahul">
+
+            Rahul Gandhi  (born 19 June 1970) is an Indian politician and a member of the Indian Parliament, representing the constituency of Wayanad, Kerala in the 17th Lok Sabha. A member of the Indian National Congress, he served as the President of the Indian National Congress from 16 December 2017 to 3 July 2019. Gandhi is the chairperson of the Indian Youth Congress and the National Students Union of India. He is also a trustee of Rajiv Gandhi Foundation and Rajiv Gandhi Charitable Trust. A strong advocate of womens rights and empowerment, Gandhi has called for 33% reservation of all parliamentary Lok Sabha and state legislative assembly seats for women, as well as government jobs.\n\n\n
+            Born in New Delhi, Gandhi spent his early childhood between Delhi and Dehradun and stayed away from the public sphere for much of his childhood and early youth. He attained primary education in New Delhi and Dehradun but was later homeschooled because of security concerns. Gandhi began his undergraduate career at St. Stephens college before moving to Harvard University. Gandhi transferred to Rollins College in Florida due to security threats following his father, the late Prime Minister Rajiv Gandhi s, assassination. He graduated in 1994, the year after Gandhi obtained M.Phil. from Cambridge. Post graduation, Gandhi began his professional career with the Monitor Group, a management consulting firm in London. He soon returned to India and established the Mumbai-based technology outsourcing firm, Backops Services Private Ltd.\n\n\n
+            In 2004, Gandhi announced to enter in active politics and successfully contested the general elections held that year from Amethi, a seat that was earlier held by his father; he won again from the constituency in 2009 and 2014. Amidst calls from Congress party veterans for his greater involvement in party politics and national government, Gandhi was elected Congress Vice-President in 2013, having served as the General Secretary previously. Gandhi led the Congress campaign in the 2014 Indian general elections; the party suffered its worst electoral result in its history, winning only 44 seats compared to 206 seats won previously in the 2009 general election.\n\n\n
+            In 2017, Gandhi succeeded his mother as Congress party leader and led the Congress into the 2019 Indian general election. The Indian National Congress won 52 seats, failing to get 10% of the seats needed to claim the post of Leader of Opposition. After this poor performance in the election, Gandhi resigned as party leader and was succeeded by his mother, Sonia Gandhi.\n\n\n
+        Read more\n
+               https://en.wikipedia.org/wiki/Rahul_Gandhi\n\n\n\n
+
+
+    </string>
+    <string name="mayawati">
+
+        Mayawati (born 15 January 1956) is an Indian politician. She has served four separate terms as Chief Minister of Uttar Pradesh. She is the national president of the Bahujan Samaj Party (BSP), which focuses on a platform of social change for Bahujans, more commonly known as Other Backward Castes, Scheduled Castes and Scheduled Tribes as well as converted minorities from these castes. She was chief minister briefly in 1995 and again in 1997, then from 2002 to 2003 and from 2007 to 2012.\n\n\n
+        Mayawati rise from humble beginnings has been called a "miracle of democracy" by P. V. Narasimha Rao, former prime minister of India. In 1993 Kanshi Ram formed a coalition with the Samajwadi Party and Mayawati became the Chief Minister of Uttar Pradesh in 1995. She was the first female Scheduled Caste chief minister in India. In 1997 and in 2002 she was chief minister with outside support from the Bharatiya Janata Party (BJP), the second time only for a year up to 26 August 2003 due to BJP withdrawing support.\n\n\n
+       Mayawati tenure has attracted praise and criticism. Millions of Dalits across India view her as an icon, and refer to her as Behen-ji (sister). She has been praised for her fundraising efforts on behalf of her party and her birthdays have been widely celebrated by her supporters. The rise in her personal wealth and that of her party have been criticised as indicative of corruption.\n\n\n
+        After losing the 2012 legislative assembly elections to the rival Samajwadi Party, she resigned from her post as party leader on 7 March 2012. Later that month, she was elected to the Rajya Sabha, the upper house of Indian parliament.\n\n\n
+        Read more\n
+        https://en.wikipedia.org/wiki/Mayawati\n\n\n\n
+    </string>
+
+    <string name="d_raja">
+
+        Doraisamy Raja (born June 3, 1949) is an Indian politician and the General Secretary of the Communist Party of India (CPI) from July 2019. He was former member of Rajya Sabha from Tamil Nadu.[1][2] He was the national secretary of the Communist Party of India (CPI) from 1994 to 2019\n\n\n
+        Early life and education\n\n
+        Raja was born in Chithathoor, in the Vellore district of Tamil Nadu, to a Dalit family.[1][5] His father, P. Doraisamy, and mother, Nayagam, were landless agricultural workers.
+
+        He completed a B.Sc. from G.T.M. College in Gudiyattam, and a B.Ed from Government Teachers College in Vellore. He was the first graduate in his village. While in college, he became active in student politics\n\n\n
+        Political career\n\n
+        During college, he joined the All India Students Federation and became active in student politics. He later became the leader of the All India Youth Federation and was the State Secretary of the Tamil Nadu unit from 1975 to 1980, and was then elected general secretary from 1985 to 1990. He became the national secretary of the Communist Party of India (CPI) in 1994 and served until 2019. On 21 July 2019, the National Council of the CPI elected him as the general secretary of the party.[7]
+
+        Raja was first elected to Rajya Sabha in July 2007 from Tamil Nadu and was re-elected in 2013\n\n\n
+        Read more\n
+        https://en.wikipedia.org/wiki/D._Raja\n\n\n\n
+
+    </string>
+
+</resources>
